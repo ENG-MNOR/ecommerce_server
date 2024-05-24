@@ -23,7 +23,7 @@ module.exports = {
       res.status(401).json({ status: "fail", message: e.toString() });
     }
   },
-  getUser: async (r9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk 9imk eq, res) => {
+  getUser: async (req, res) => {
     try {
       const user = await User.findById(req.params.id);
 
